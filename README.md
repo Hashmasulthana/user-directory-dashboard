@@ -64,10 +64,10 @@ src/
 
 📸 Screenshots
 ### 🏠 Dashboard
-![Dashboard](./public/img1.png)
+![Dashboard](./public/img2.png)
 
 ### 👤 User Detail Page
-![User Detail](./public/img2.png)
+![User Detail](./public/img1.png)
 
 ## 🚀 Getting Started
 
