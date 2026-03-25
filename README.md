@@ -69,8 +69,6 @@ src/
 ### 👤 User Detail Page
 ![User Detail](./public/img2.png)
 
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
