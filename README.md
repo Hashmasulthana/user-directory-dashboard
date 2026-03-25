@@ -62,6 +62,12 @@ src/
 ├── App.js
 └── index.js
 
+📸 Screenshots
+### 🏠 Dashboard
+![Dashboard](./public/img1.png)
+
+### 👤 User Detail Page
+![User Detail](./public/img2.png)
 
 ---
 
@@ -80,13 +86,6 @@ npm install
 
 ## Start the development server
 npm start
-
-📸 Screenshots
-### 🏠 Dashboard
-![Dashboard](./public/img1.png)
-
-### 👤 User Detail Page
-![User Detail](./public/img2.png)
 
 ## 💡 Future Improvements
 🌙 Dark Mode
