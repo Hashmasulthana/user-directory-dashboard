@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# 🚀 User Directory Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and responsive **User Directory Dashboard** built using React.  
+This application fetches user data from a public API and provides search, sorting, and detailed user views.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Features
 
-### `npm start`
+- 🔍 **Search Users**
+  - Filter users by name or email (client-side)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔄 **Sorting**
+  - Sort users by:
+    - Name (Ascending / Descending)
+    - Company (Ascending / Descending)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 👤 **User Detail Page**
+  - View complete information of a selected user
+  - Includes:
+    - Contact details
+    - Address
+    - Company information
 
-### `npm test`
+- 🎨 **Premium UI**
+  - Card-based layout
+  - Hover effects
+  - Clean and modern design
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🔙 **Navigation**
+  - Seamless routing using React Router
+  - Back button for smooth user experience
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React (Create React App)
+- JavaScript (ES6+)
+- CSS (Custom Styling)
+- React Router DOM
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🌐 API Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- https://jsonplaceholder.typicode.com/users
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📂 Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+src/
+├── components/
+│ ├── UserList.js
+│ ├── UserDetail.js
+│ ├── SearchBar.js
+│ └── UserCard.js
+├── styles/
+│ ├── App.css
+│ ├── UserList.css
+│ ├── UserDetail.css
+│ └── SearchBar.css
+├── App.js
+└── index.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🚀 Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/user-directory-dashboard.git
+2. Navigate to the project
+cd user-directory-dashboard
+3. Install dependencies
+npm install
+4. Start the development server
+npm start
+📸 Screenshots (Optional)
 
-### Analyzing the Bundle Size
+### 🏠 Dashboard
+![Dashboard](./public/img1.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 👤 User Detail Page
+![User Detail](./public/img2.png)
 
-### Making a Progressive Web App
+💡 Future Improvements
+Dark Mode 🌙
+Pagination / Infinite Scroll
+Loading Skeletons
+Error Handling UI
+Mobile Responsiveness Enhancements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+👩‍💻 Author
+Hashma Sulthana Shaik
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

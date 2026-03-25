@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #eef2ff, #f8fafc);
+}
+
+.title {
+  text-align: center;
+  padding: 25px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #1e293b;
+  letter-spacing: 1px;
+}
