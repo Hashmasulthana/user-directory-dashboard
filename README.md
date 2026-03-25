@@ -1,44 +1,43 @@
 # 🚀 User Directory Dashboard
 
 A modern and responsive **User Directory Dashboard** built using React.  
-This application fetches user data from a public API and provides search, sorting, and detailed user views.
+This application fetches user data from a public API and provides powerful features like search, sorting, and detailed user views.
 
 ---
 
 ## 📌 Features
 
-- 🔍 **Search Users**
-  - Filter users by name or email (client-side)
+### 🔍 Search Users
+- Filter users by **name or email** (client-side search)
 
-- 🔄 **Sorting**
-  - Sort users by:
-    - Name (Ascending / Descending)
-    - Company (Ascending / Descending)
+### 🔄 Sorting
+- Sort users dynamically by:
+  - **Name** (Ascending / Descending)
+  - **Company** (Ascending / Descending)
 
-- 👤 **User Detail Page**
-  - View complete information of a selected user
-  - Includes:
-    - Contact details
-    - Address
-    - Company information
+### 👤 User Detail Page
+- View complete information of a selected user:
+  - Contact details (Email, Phone, Website)
+  - Address information
+  - Company details (Name, Catchphrase, Business)
 
-- 🎨 **Premium UI**
-  - Card-based layout
-  - Hover effects
-  - Clean and modern design
+### 🎨 Premium UI
+- Clean and modern **card-based layout**
+- Smooth **hover effects**
+- Responsive and user-friendly design
 
-- 🔙 **Navigation**
-  - Seamless routing using React Router
-  - Back button for smooth user experience
+### 🔙 Navigation
+- Seamless routing using **React Router**
+- Back button for better user experience
 
 ---
 
 ## 🛠️ Tech Stack
 
-- React (Create React App)
-- JavaScript (ES6+)
-- CSS (Custom Styling)
-- React Router DOM
+- **React (Create React App)**
+- **JavaScript (ES6+)**
+- **CSS (Custom Styling)**
+- **React Router DOM**
 
 ---
 
@@ -49,8 +48,6 @@ This application fetches user data from a public API and provides search, sortin
 ---
 
 ## 📂 Project Structure
-
-
 src/
 ├── components/
 │ ├── UserList.js
@@ -73,29 +70,61 @@ src/
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/user-directory-dashboard.git
-2. Navigate to the project
-cd user-directory-dashboard
-3. Install dependencies
-npm install
-4. Start the development server
-npm start
-📸 Screenshots (Optional)
 
+
+## Navigate to the project
+cd user-directory-dashboard
+
+## Install dependencies
+npm install
+
+## Start the development server
+npm start
+
+📸 Screenshots
 ### 🏠 Dashboard
 ![Dashboard](./public/img1.png)
 
 ### 👤 User Detail Page
 ![User Detail](./public/img2.png)
 
-💡 Future Improvements
-Dark Mode 🌙
-Pagination / Infinite Scroll
-Loading Skeletons
-Error Handling UI
-Mobile Responsiveness Enhancements
+## 💡 Future Improvements
+🌙 Dark Mode
+📄 Pagination / Infinite Scroll
+⏳ Loading Skeletons
+⚠️ Error Handling UI
+📱 Enhanced Mobile Responsiveness
 
 👩‍💻 Author
 Hashma Sulthana Shaik
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
